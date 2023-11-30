@@ -16,19 +16,23 @@ while True:
 
     masukkan =  int(input('\nMasukkan Angka : '))
 
-    if masukkan == 1:
+    if masukkan == 1 or masukkan == 2:
         a = int(input('masukkan angka awal : '))
         b = int(input('masukkan angka akhir : '))
 
-        ganjil(a,b)
-        print('\n')
+        if masukkan == 1:
+            ganjil(a,b)
+
+        else:
+            genap(a,b)
+            print('\n')
     
-    elif masukkan == 2:
-        a = int(input('masukkan angka awal : '))
-        b = int(input('masukkan angka akhir : '))
+    # elif masukkan == 2:
+    #     a = int(input('masukkan angka awal : '))
+    #     b = int(input('masukkan angka akhir : '))
 
-        genap(a,b)
-        print('\n')
+    #     genap(a,b)
+    #     print('\n')
 
     elif masukkan == 3:
         exit("Menutup")
