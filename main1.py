@@ -1,12 +1,12 @@
-while True:
-    def ganjil (a,b):
+def ganjil (a,b):
         for i in range (a,b+1):
             if i%2 == 1:
                 print(i)
-    def genap (a,b):
+def genap (a,b):
         for i in range (a,b+1):
             if i%2 == 0:
                 print(i)
+while True:
 
     print("Menu Pilihan")
     print("1. Angka Ganjil")
